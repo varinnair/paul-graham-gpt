@@ -19,7 +19,7 @@ Requirements
 1. OpenAI API key to generate text embeddings
 2. Supabase account for the Postgres Database
 
-See the schema.sql file for the script to set up the database. Run that in the SQL editor in Supabase.
+See the `schema.sql` file for the script to set up the database. Run that in the SQL editor in Supabase.
 
 3. Clone repo
 
