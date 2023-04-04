@@ -1,3 +1,4 @@
+import { Answer } from "@/components/Answer";
 import { PGChunk } from "@/types";
 import endent from "endent";
 import Head from "next/head";
@@ -92,7 +93,7 @@ export default function Home() {
                     Search
                 </button>
                 <div className="mt-4">
-                    {loading ? <div>Loading...</div> : <div>{answer}</div>}
+                    {loading ? <div>Loading...</div> : <Answer text={answer} />}
                 </div>
             </div>
         </>
